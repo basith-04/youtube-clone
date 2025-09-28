@@ -12,10 +12,29 @@
     border-bottom-width: 1px;
     border-style: solid;
     border-color: rgb(216, 211, 211);
+    z-index: 100;
 
 
 }
-
+.notification-div
+{
+    position: relative;
+}
+.notification-count{
+    position: absolute;
+    top: -5px;
+    right:-5px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    
+    font-size: 10px;
+    padding-bottom: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    
+}
 .left-navi {
 
     /* background-color: aqua; */
