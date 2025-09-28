@@ -1,8 +1,37 @@
-.side-bar{
+.side-bar {
     position: fixed;
     left: 0;
     bottom: 0;
-    top:80px;
+    top: 55px;
     background-color: white;
-    width: 50px;
+    width: 80px;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 200;
+    ;
+}
+
+.side-bar-block {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;    
+    height: 75px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.side-bar-block:hover {
+    background-color: rgb(224, 222, 222);
+}
+
+.side-bar-icon {
+    width: 23px;
+    margin-bottom: 5px; }
+
+.side-bar-text {
+    font-size: 10px;
+    color: rgb(96, 96, 96);
+    font-family: roboto, sans-serif;
 }
